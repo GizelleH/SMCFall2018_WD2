@@ -1,0 +1,169 @@
+* {
+margin: 0;
+padding: 0;
+
+
+}
+
+
+header#canvas {
+
+width: 54.5vw;
+height: 54.5vw;
+margin: 0 auto;
+
+}
+
+section {
+
+	width: 24.99%;
+	height: 24.99%;
+	float: left;
+
+}
+
+article {
+
+	width: 25%;
+	height:25%;
+	float: left;
+}
+
+/* CSS NAMED COLOR CLASSES*/
+
+.lightyellow {
+
+	background-color: #ece28b;
+}
+
+.lightyellow:hover {
+
+	background-color: yellow;
+}
+
+.navyblue {
+
+	background-color: #717dd1;
+
+}
+
+.navyblue:hover {
+
+	background-color: navy;
+
+}
+
+.darkgreen {
+
+	background-color: #385f5e;
+}
+
+.darkgreen:hover {
+
+	background-color: darkgreen;
+}
+
+
+.orange {
+
+	background-color: #eb7035;
+}
+
+.orange:hover {
+
+	background-color: orange;
+}
+
+
+.redorange {
+
+	background-color: #ca4923;
+}
+
+.redorange:hover {
+
+	background-color: darkorange;
+}
+
+.smallorange {
+
+	background-color: #eb7035;
+}
+.smallorange:hover {
+
+	background-color: green;
+}
+
+
+.smallgreen {
+
+	background-color: #385f5e;
+}
+.smallgreen:hover {
+
+	background-color: orange;
+}
+
+.smallblue {
+
+	background-color: #717dd1;
+}
+
+.smallblue:hover {
+
+	background-color: yellow;
+}
+
+.smallyellow {
+	background-color: #ece28b;
+}
+
+.smallyellow:hover {
+	background-color: blue;
+}
+
+.darkyellow {
+
+	background-color: #dadb48 ;
+}
+
+.darkyellow:hover {
+
+	background-color: lightblue ;
+}
+
+.brown {
+
+	background-color: #4f2108 ;
+}
+
+.brown:hover {
+
+	background-color: lightyellow ;
+}
+
+.purple {
+
+	background-color: #2a2345 ;
+}
+
+.purple:hover {
+
+	background-color: green ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

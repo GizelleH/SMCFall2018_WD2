@@ -1,0 +1,33 @@
+@keyframes fade-in-one {
+
+	0%   	{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+
+@-moz-keyframes fade-in-one {
+
+	0%   	{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+
+@-o-keyframes fade-in-one {
+
+	0%   	{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+
+@-webkit-keyframes fade-in-one {
+
+	0%   	{opacity: 0;}
+	100% 	{opacity: 1;}
+}
+
+.fade-in-one {
+
+	animation-name: fade-in-one;
+	animation-duration: 3s;
+
+
+}
+
+

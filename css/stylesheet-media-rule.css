@@ -1,0 +1,74 @@
+/* SMARTPHONES*/
+@media screen and (max-width: 479px ) {
+
+	figure {
+		width: 375px;
+		height: 627px;
+		background-color: pink;
+	}
+
+	h2,h3,h4,h5 {
+		display: none;}
+
+}
+
+/* PHABLETS*/
+@media screen and (min-width: 480px ) and (max-width: 766px) {
+
+	figure {
+		width: 480px;
+		height: 766px;
+		background-color: blue;
+	}
+
+	h1,h3,h4,h5 {
+		display: none;}
+
+}
+
+/* TABLETS*/
+
+@media screen and (min-width: 767px ) and (max-width: 1365px) {
+
+	figure {
+		width: 768px;
+		height: 1024px;
+		background-color: yellow;
+	}
+
+	h1,h2,h4,h5 {
+		display: none;}
+
+}
+
+/* LAPTOPS*/
+
+@media screen and (min-width: 1366px ) and (max-width: 1919px) {
+
+	figure {
+		width: 1366px;
+		height: 768px;
+		background-color: green;
+	}
+
+	h1,h2,h3,h5 {
+		display: none;}
+
+}
+
+/* DESKTOP*/
+
+@media screen and (min-width: 1920px ) {
+
+	figure {
+		width: 1920px;
+		height: 1080px;
+		background-color: orange;
+	}
+
+	h1,h2,h3,h4 {
+		display: none;}
+
+}
+
+

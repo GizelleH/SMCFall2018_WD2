@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <!--
+                   _   _             , __          _         
+  () |o           | | | |           /|/  \o       | |                /\         
+  /\/|    __   _  | | | |  _   ,     |___/        | |  _   ,     )  ( ')  
+ /   ||  / / _|/  |/  |/  |/  / \_   |    |  /\/  |/  |/  / \_  (  /  )
+/(__/ |_/ /_/ |__/|__/|__/|__/ \/    |    |_/ /\_/|__/|__/ \/****\(__)|
+           /|                                                 
+           \|                                                  
+    
+    -->
+
+  <title>DoughBird</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="../css/stylesheet-doughbird.css">
+ <link rel="stylesheet" type="text/css" href="../css/stylesheet-css3-animations.css">
+
+ <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <header> 
+
+    <section class="header-section"> 
+
+
+      <article class="logo"><li><a href="../prototype-responsive-website.html"><img src="../img/dough-bird-logo.png" alt="logo" width="229" height="63"></a></li></article> 
+
+
+
+</section>
+
+     <nav class="fade-in-one">
+    <ul>
+    
+        <li><a href="doughbird-menu.html">Menu</a></li>
+        <li><a href="doughbird-about.html">About</a></li>
+        <li>Contact</li>
+        <li><a href="doughbird-gallery.html">Gallery</a></li>
+        </ul>
+
+    </nav>
+
+  </header>
+
+  <section id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <article class="overlay-content">
+    <a href="../pages/doughbird-menu.html">Menu</a>
+    <a href="../pages/doughbird-about.html">About</a>
+    <a href="../pages/doughbird-contact.html">Contact</a>
+    <a href="../pages/doughbird-gallery.html">Gallery</a>
+  </article>
+</section>
+
+<span style="font-size:50px;cursor:pointer;position: fixed;color: #fffdf6;right: 20px;margin-top: -99px;" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+
+
+
+
+  
+  <section class="slideshow"> 
+
+  <img src="../img/slideshow_1.jpg" alt="slideshow_img" class="slideshow">
+
+   </section>
+
+
+   <section class="location_list">
+    
+    <article class="location_title">LOCATION</article>
+    <article class="loc_address">315 South Olympic Boulevard Los Angeles, CA 90016 ~doughbird.com~</article>
+
+    <article class="loc_img"><img src="../img/map.jpg" alt="map" class="loc_img"></article>
+
+  </section>
+
+
+
+
+   <form action="action.php">
+
+<label>Name</label> 
+<br/> 
+<input type="text" placeholder="First Name,Last Name">
+<br/>
+<br/>
+<label>Email</label>
+<br/> 
+<input type="email" placeholder="email@email.com">
+<br/>
+<br/>
+<label>Website</label>
+<br/>
+<input type="url" placeholder="http://website.com">
+<br/>
+<br/>
+<label>Comments</label>
+<br/>
+<textarea cols="45" rows="6" ></textarea>
+<br/>
+<br/>
+<p>
+ <p> <label>How did you find us?</label></p>
+  <label>
+    <input type="radio" name="How did you find us?" value="Google" id="Howdidyoufindus_0">
+    Google</label>
+  <br>
+  <label>
+    <input type="radio" name="How did you find us?" value="Youtube" id="Howdidyoufindus_1">
+    Youtube</label>
+  <br>
+  <label>
+    <input type="radio" name="How did you find us?" value="Other" id="Howdidyoufindus_1">
+    Other</label>
+  <br>
+</p>
+<br/>
+<br/>
+<input type="submit" class="submit">
+</form>
+
+
+  
+    
+<footer>
+
+  <section class="footer_section">
+
+  <article class="contact_us"><li><a href="../pages/doughbird-contact.html" style="color: #fffdf6">Contact Us</a></li></article>
+  <img src="../img/social_media.png" alt="social-media" class="social-footer">
+  <article class="location"><li><a href="../pages/doughbird-contact.html" style="color: #fffdf6">Location</a></li></article>
+
+
+  </section>
+  
+</footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+* {
+margin: 0;
+padding: 0;
+
+
+}
+
+
+header#canvas {
+
+width: 43vw;
+height: 54vw;
+margin:0 auto;
+
+}
+
+section {
+	width: 100%;
+	height: 42%;
+}
+
+ article {
+ 	width: 82%;
+	height: 66.8%;
+	margin-left: 9%;
+	float: left;
+	margin-top: 8%;
+ }
+ 
+ figure {
+ 	width: 97%;
+ 	height:20%;
+ 	margin-left: 1.5%;
+ 	margin-top: 1.7%;
+ 	float: left;
+ }
+
+
+/* CSS NAMED COLOR CLASSES*/
+
+.orange {
+	background-color: #ffc13b;
+}
+	
+	.orange:hover{
+	background-color: blue;
+}
+
+
+
+.lightgreen {
+	background-color: #a5c66b;
+
+}
+
+	.lightgreen:hover {
+	background-color: cyan;
+
+}
+
+
+.yellow {
+
+	background-color: #f9ee2a;
+
+}
+	.yellow:hover {
+
+	background-color: orange;
+
+}
+
+
+
+.red {
+
+	background-color: #e83519;
+	width: 100%;
+	height: 6%;
+
+}
+
+	.red:hover {
+
+	background-color: peachpuff;
+	
+}
+
+.black {
+
+	background-color: #232323;
+}
+
+	.black:hover {
+
+	background-color: grey;
+}
+
+.pink {
+
+	background-color: #e494a5;
+	
+}
+
+	.pink:hover {
+
+	background-color: white;
+	
+}
+
+.white {
+
+	background-color: #f1f2f1;
+	
+
+}
+
+	.white:hover {
+
+	background-color: lightpink;
+	
+
+}
+
+
+
+.limegreen {
+
+	background-color: #bccb41;
+	width: 100%;
+	height: 3.4%;
+}
+
+	.limegreen:hover {
+
+	background-color: green;
+
+}
+
+.blue {
+
+	background-color: #1c3e8a;
+	width: 100%;
+	height: 4%;
+
+}
+
+	.blue:hover {
+
+	background-color: purple;
+	
+}
+
